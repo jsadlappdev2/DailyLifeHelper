@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DailyLifeHelper.Home"
+             Title="Daily Life Helper"
+             BackgroundColor="White">
+
+    <StackLayout BackgroundColor="White"
+                     Padding="60"
+                     VerticalOptions="Center">
+        <Grid Padding="0,0,0,50">
+            <Label Text="Mobile app and APIs are all built with C#" 
+                   TextColor="Blue" 
+                   VerticalOptions="Center"
+                   Font="20"/>
+        </Grid>
+        <Grid Padding="0,0,0,50">
+
+            <Button Text="Navigate to Call REST API Demo"
+                    Clicked="CallAPIButton_Clicked"
+                    VerticalOptions="Center"
+                        BackgroundColor="Blue"
+                           TextColor="White"
+                           HorizontalOptions="Start"
+                           BorderWidth="1"/>
+
+        </Grid>
+        <Grid Padding="0,0,0,50">
+            <Button Text="Check the Weather!"
+                    VerticalOptions="Center"
+                         BackgroundColor="Blue"
+                           TextColor="White"
+                        BorderWidth="1"
+                   />
+        </Grid>
+
+        <Grid Padding="0,0,0,50">
+            <Button Text="What shall we do next?"
+                    VerticalOptions="Center"
+                         BackgroundColor="Blue"
+                           TextColor="White"
+                        BorderWidth="1"
+                   />
+        </Grid>
+
+        <Grid>
+
+            <StackLayout Orientation="Horizontal">
+                <Button HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="40" Text="B1" BorderWidth="1" BackgroundColor="Blue" TextColor="White" />
+                <Button HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="40" Text="B2" BorderWidth="1" BackgroundColor="Blue" TextColor="White" />
+                <Button HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="40" Text="B2" BorderWidth="1" BackgroundColor="Blue" TextColor="White" />
+
+            </StackLayout>
+
+        </Grid>
+
+    </StackLayout>
+
+</ContentPage>
