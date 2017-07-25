@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DailyLifeHelper.LoginPage"
+             Title="DailyLifeHelper"
+             BackgroundColor="White">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Sign Up" Clicked="OnSignUpButtonClicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Padding="60" >
+            <Label Text="Username" TextColor="Black"/>
+            <Entry x:Name="usernameEntry" Placeholder="username or email" TextColor="Black"/>
+            <Label Text="Password" TextColor="Black"/>
+            <Entry x:Name="passwordEntry" IsPassword="true"  TextColor="Black"/>
+            <Button Text="Login" Clicked="OnLoginButtonClicked" />
+            <Button Text="Forget Password" Clicked="ForgetpasswordButtonClicked" />
+            <Label x:Name="messageLabel" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

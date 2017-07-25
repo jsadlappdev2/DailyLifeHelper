@@ -12,7 +12,8 @@ namespace DailyLifeHelper
         public App()
         {
             // The root page of your application
-            MainPage = new NavigationPage(new Home());
+            // MainPage = new NavigationPage(new Home());
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()

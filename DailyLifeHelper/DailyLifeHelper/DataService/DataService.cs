@@ -74,5 +74,27 @@ namespace DailyLifeHelper.DataService
             // await client.DeleteAsync(string.Concat(url, itemIndex));
             await client.DeleteAsync(url);
         }
+
+        public async Task<int> SendPasswordAsync(EmailUser emailtoadd)
+        {
+            var data = JsonConvert.SerializeObject(emailtoadd);
+            var content = new StringContent(data, Encoding.UTF8, "application/json");
+            //var response = await client.PostAsync("http://localhost:5000/api/todo/item", content);
+            var response = await client.PostAsync("http://18.220.1.200/api/email/SendPassword", content);
+            // var result = JsonConvert.DeserializeObject<int>(response.Content.ReadAsStringAsync().Result);
+            //return result;
+            return 1;
+        }
+
+        public async Task<int> AddNewUserAsync(newuser userAdd)
+        {
+            var data = JsonConvert.SerializeObject(userAdd);
+            var content = new StringContent(data, Encoding.UTF8, "application/json");
+            //var response = await client.PostAsync("http://localhost:5000/api/todo/item", content);
+            var response = await client.PostAsync("http://18.220.1.200/api/users/AddNewUser", content);
+            var result = JsonConvert.DeserializeObject<int>(response.Content.ReadAsStringAsync().Result);
+            return result;
+           // return 1;
+        }
     }
 }
