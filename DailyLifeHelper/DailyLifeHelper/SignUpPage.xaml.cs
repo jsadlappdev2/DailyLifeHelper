@@ -30,7 +30,9 @@ namespace DailyLifeHelper
              };
             try
             {
-                await dataService.AddNewUserAsync(addnewuser);
+                int result = 0;
+               result = await dataService.AddNewUserAsync(addnewuser);
+                messageLabel.Text = result.ToString();
             }
             catch (Exception ex)
             {

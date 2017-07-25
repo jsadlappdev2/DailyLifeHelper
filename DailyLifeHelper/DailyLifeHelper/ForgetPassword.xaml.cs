@@ -29,7 +29,9 @@ namespace DailyLifeHelper
               email_to="shenjr81@gmail.com".ToString()
            
             };
-            await dataService.SendPasswordAsync(newemailuser);
+            int result = 0;
+            result= await dataService.SendPasswordAsync(newemailuser);
+            messageLabel.Text = result.ToString();
           
         }
     }
