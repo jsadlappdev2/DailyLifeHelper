@@ -22,17 +22,18 @@ namespace DailyLifeHelper
         }
         async void GetpasswordButtonClicked(object sender, EventArgs e)
         {
-            EmailUser newemailuser = new EmailUser
+             EmailUser newemailuser = new EmailUser
             {
-                userid = 1,
-              //  email_to = emailEntry.Text.Trim()
-              email_to="shenjr81@gmail.com".ToString()
-           
-            };
-            int result = 0;
+               userid = 1,
+             email_to = emailEntry.Text.Trim()
+            // email_to="shenjr81@gmail.com".ToString()
+
+             };
+              int result = 0;
             result= await dataService.SendPasswordAsync(newemailuser);
             messageLabel.Text = result.ToString();
-          
+      
+
         }
     }
 }

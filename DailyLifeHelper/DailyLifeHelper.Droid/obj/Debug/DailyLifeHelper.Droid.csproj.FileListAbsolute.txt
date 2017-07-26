@@ -39,11 +39,3 @@ E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\Dail
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\bin\Debug\DailyLifeHelper.dll.mdb
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\bin\Debug\DailyLifeHelper.Droid.dll.mdb
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\assets\DailyLifeHelper.dll.mdb
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\assets\DailyLifeHelper.Droid.dll.mdb
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
