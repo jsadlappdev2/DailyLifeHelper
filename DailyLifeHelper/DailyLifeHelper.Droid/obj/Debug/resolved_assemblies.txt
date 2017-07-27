@@ -27,8 +27,8 @@ E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\Dail
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\assets\System.Runtime.dll
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\assets\System.Diagnostics.Debug.dll
+E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\assets\System.Threading.Tasks.dll
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\assets\System.Collections.dll
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\assets\System.Linq.dll

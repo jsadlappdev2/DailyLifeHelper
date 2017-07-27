@@ -22,17 +22,41 @@ namespace DailyLifeHelper
         }
         async void GetpasswordButtonClicked(object sender, EventArgs e)
         {
-             EmailUser newemailuser = new EmailUser
+            EmailUser newemailuser = new EmailUser
             {
-               userid = 1,
-             email_to = emailEntry.Text.Trim()
-            // email_to="shenjr81@gmail.com".ToString()
+                email_to = emailEntry.Text.Trim()  
+               
 
              };
-              int result = 0;
-            result= await dataService.SendPasswordAsync(newemailuser);
-            messageLabel.Text = result.ToString();
-      
+            try
+            {
+                int result = 0;
+                result = await dataService.SendPasswordJustCheckemail(newemailuser);
+                string msg = "";
+                switch (result)
+                {
+                    case 2:
+                        msg = "Username and password has sent, please check your email!";
+                        break;
+                    case 3:
+                        msg = "Username and password has sent, please check your email!";
+                        break;
+                    case 5:
+                        msg = "Your input email is not registered email, cannot send you password!";
+                        break;
+                       
+                    default:
+                        msg = "Send email failed, please try again!";
+                        break;
+
+                }
+                messageLabel.Text = msg;
+            }
+            catch (Exception ex)
+            {
+                messageLabel.Text = "Send email failed with error: " + ex.Message.ToString();
+            }
+
 
         }
     }

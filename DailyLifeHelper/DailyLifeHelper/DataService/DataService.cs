@@ -67,37 +67,41 @@ namespace DailyLifeHelper.DataService
         /// <returns>The todo item async.</returns>
         /// <param name="itemIndex">Item index.</param>
         public async Task DeleteTodoItemAsync(int itemIndex)
-        {
-            //	await client.DeleteAsync(string.Concat("http://localhost:5000/api/todo/", itemIndex));
-            // await client.DeleteAsync(string.Concat("http://anglicareapiserver.azurewebsites.net/api/todos/DeleteByID", itemIndex));
+        {            
             string url = "http://18.220.1.200/api/todos/DeleteByID?id=" + itemIndex.ToString();
-            // await client.DeleteAsync(string.Concat(url, itemIndex));
             await client.DeleteAsync(url);
         }
 
-       public async Task<int> SendPasswordAsync(EmailUser emailtoadd)
+        //send password to email api
+       public async Task<int> SendPasswordJustCheckemail(EmailUser newemailto)
         {
-           var data = JsonConvert.SerializeObject(emailtoadd);
-            var content = new StringContent(data, Encoding.UTF8, "application/json");
-          //  var response = await client.PostAsync("http://localhost:5000/api/todo/item", content);
-           var response = await client.PostAsync("http://18.220.1.200/api/email/SendPassword", content);
-             var result = JsonConvert.DeserializeObject<int>(response.Content.ReadAsStringAsync().Result);
-           //return result;
-           return 1;
+           var data = JsonConvert.SerializeObject(newemailto);
+           var content = new StringContent(data, Encoding.UTF8, "application/json");
+           var response = await client.PostAsync("http://18.220.1.200/api/email/SendPasswordJustCheckemail", content);
+           var result = JsonConvert.DeserializeObject<int>(response.Content.ReadAsStringAsync().Result);
+           return result;
+         
        }
 
 
 
-
+        //add new user API
         public async Task<int> AddNewUserAsync(newuser userAdd)
         {
             var data = JsonConvert.SerializeObject(userAdd);
             var content = new StringContent(data, Encoding.UTF8, "application/json");
-            //var response = await client.PostAsync("http://localhost:5000/api/todo/item", content);
             var response = await client.PostAsync("http://18.220.1.200/api/users/AddNewUser", content);
             var result = JsonConvert.DeserializeObject<int>(response.Content.ReadAsStringAsync().Result);
+            return result;        
+        }
+
+        //check user name and passowrd
+        public async Task<int> ValidUser(string username, string password)
+        {
+            string url = "http://18.220.1.200/api/users/LoginUserValidation?usernameoremail=" + username + "&password=" + password;
+            var response = await client.GetAsync(url);
+            var result = JsonConvert.DeserializeObject<int>(response.Content.ReadAsStringAsync().Result);
             return result;
-           // return 1;
         }
     }
 }

@@ -17,4 +17,3 @@ E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\Dail
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.LoginPage.xaml.g.cs
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.SignUpPage.xaml.g.cs
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.ForgetPassword.xaml.g.cs
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.csprojResolveAssemblyReference.cache

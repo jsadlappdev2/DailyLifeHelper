@@ -8,12 +8,23 @@ using Xamarin.Forms;
 namespace DailyLifeHelper
 {
     public class App : Application
+
     {
+
+        public static bool IsUserLoggedIn { get; set; }
+
         public App()
         {
             // The root page of your application
-            // MainPage = new NavigationPage(new Home());
-            MainPage = new NavigationPage(new LoginPage());
+            if (!IsUserLoggedIn)
+            {
+                MainPage = new NavigationPage(new LoginPage());
+            }
+            else
+            {
+
+                MainPage = new NavigationPage(new Home());
+            }
         }
 
         protected override void OnStart()

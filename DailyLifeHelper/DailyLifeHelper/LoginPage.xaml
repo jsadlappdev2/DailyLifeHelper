@@ -3,19 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DailyLifeHelper.LoginPage"
              Title="DailyLifeHelper"
-             BackgroundColor="White">
+             BackgroundColor="Yellow">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Sign Up" Clicked="OnSignUpButtonClicked" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center" Padding="60" >
             <Label Text="Username" TextColor="Black"/>
-            <Entry x:Name="usernameEntry" Placeholder="username or email" TextColor="Black"/>
+            <Entry x:Name="usernameEntry" Placeholder="username or email" TextColor="Black" BackgroundColor="White"/>
             <Label Text="Password" TextColor="Black"/>
-            <Entry x:Name="passwordEntry" IsPassword="true"  TextColor="Black"/>
+            <Entry x:Name="passwordEntry" IsPassword="true"  TextColor="Black" BackgroundColor="White"/>
             <Button Text="Login" Clicked="OnLoginButtonClicked" />
             <Button Text="Forget Password" Clicked="ForgetpasswordButtonClicked" />
-            <Label x:Name="messageLabel" />
+            <Label x:Name="messageLabel" TextColor="Red" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
