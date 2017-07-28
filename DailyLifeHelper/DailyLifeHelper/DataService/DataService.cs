@@ -20,10 +20,10 @@ namespace DailyLifeHelper.DataService
         /// Gets the todo items async.
         /// </summary>
         /// <returns>The todo items async.</returns>
-        public async Task<List<TodoItem>> GetTodoItemsAsync()
-        {
-            //var response = await client.GetStringAsync("http://localhost:5000/api/todo/items");
-            var response = await client.GetStringAsync("http://18.220.1.200/api/todos/QueryAll2");
+        /// change a bit to pick up right todo for specifc USERNAME
+        public async Task<List<TodoItem>> GetTodoItemsAsync(string username)        {
+         
+            var response = await client.GetStringAsync("http://18.220.1.200/api/newtodos/QueryAll2?username="+username);
             var todoItems = JsonConvert.DeserializeObject<List<TodoItem>>(response);
             return todoItems;
         }
@@ -37,8 +37,7 @@ namespace DailyLifeHelper.DataService
         {
             var data = JsonConvert.SerializeObject(itemToAdd);
             var content = new StringContent(data, Encoding.UTF8, "application/json");
-            //var response = await client.PostAsync("http://localhost:5000/api/todo/item", content);
-            var response = await client.PostAsync("http://18.220.1.200/api/todos/AddTodo", content);
+            var response = await client.PostAsync("http://18.220.1.200/api/newtodos/AddTodo", content);
             // var result = JsonConvert.DeserializeObject<int>(response.Content.ReadAsStringAsync().Result);
             //return result;
             return 1;
@@ -54,8 +53,8 @@ namespace DailyLifeHelper.DataService
         {
             var data = JsonConvert.SerializeObject(itemToUpdate);
             var content = new StringContent(data, Encoding.UTF8, "application/json");
-            //var response = await client.PutAsync(string.Concat("http://localhost:5000/api/todo/", itemIndex), content);
-            string url = "http://18.220.1.200/api/todos/UpdateTodo?id=" + itemIndex.ToString();
+         
+            string url = "http://18.220.1.200/api/newtodos/UpdateTodo?id=" + itemIndex.ToString();
             var response = await client.PutAsync(url, content);
             //return JsonConvert.DeserializeObject<int>(response.Content.ReadAsStringAsync().Result);
             return 1;
@@ -68,9 +67,10 @@ namespace DailyLifeHelper.DataService
         /// <param name="itemIndex">Item index.</param>
         public async Task DeleteTodoItemAsync(int itemIndex)
         {            
-            string url = "http://18.220.1.200/api/todos/DeleteByID?id=" + itemIndex.ToString();
+            string url = "http://18.220.1.200/api/newtodos/DeleteByID?id=" + itemIndex.ToString();
             await client.DeleteAsync(url);
         }
+
 
         //send password to email api
        public async Task<int> SendPasswordJustCheckemail(EmailUser newemailto)

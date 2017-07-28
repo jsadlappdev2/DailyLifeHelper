@@ -44,6 +44,9 @@ namespace DailyLifeHelper
                         case 2:
                             msg = "New user has created and please login!";
                             break;
+                        case 4:
+                            msg = "Email address has existed, please check!";
+                            break;
                         default:
                             msg = "New user created failed and please try again!";
                             break;

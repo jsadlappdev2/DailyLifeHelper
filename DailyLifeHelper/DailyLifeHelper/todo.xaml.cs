@@ -26,6 +26,7 @@ namespace DailyLifeHelper
         {
             TodoItem newItem = new TodoItem
             {
+                username = App.sysusername,
                 Description = txtTodoItem.Text.Trim(),
                 DueDate = dpDueDate.Date.ToString("d"),
                 isDone = false
@@ -62,7 +63,7 @@ namespace DailyLifeHelper
 
         async void RefreshData()
         {
-            items = await dataService.GetTodoItemsAsync();
+            items = await dataService.GetTodoItemsAsync(App.sysusername);
             todoList.ItemsSource = items.OrderBy(item => item.isDone).ThenBy(item => item.id).ToList();
         }
     }

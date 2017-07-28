@@ -13,6 +13,8 @@ namespace DailyLifeHelper
 
         public static bool IsUserLoggedIn { get; set; }
 
+        public static string sysusername { get; set; }
+
         public App()
         {
             // The root page of your application

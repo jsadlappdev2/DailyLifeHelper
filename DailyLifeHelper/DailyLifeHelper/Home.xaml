@@ -8,11 +8,18 @@
     <StackLayout BackgroundColor="White"
                      Padding="60"
                      VerticalOptions="Center">
-        <Grid Padding="0,0,0,50">
-            <Label Text="Mobile app and APIs are all built with C#" 
+        <Grid Padding="0,0,0,50" >
+            <StackLayout Orientation="Vertical">
+                <Label x:Name="logon_username"
                    TextColor="Blue" 
                    VerticalOptions="Center"
                    Font="20"/>
+                <Label Text="DailyLifeHelper" 
+                   TextColor="Blue" 
+                   VerticalOptions="Center"
+                   Font="20"/>
+            </StackLayout>
+
         </Grid>
         <Grid Padding="0,0,0,50">
 

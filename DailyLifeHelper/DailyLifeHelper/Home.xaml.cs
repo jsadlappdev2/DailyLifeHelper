@@ -15,6 +15,7 @@ namespace DailyLifeHelper
         public Home()
         {
             InitializeComponent();
+            logon_username.Text = "Welcome " + App.sysusername + " !";
         }
         private async void CallAPIButton_Clicked(object sender, EventArgs e)
         {
