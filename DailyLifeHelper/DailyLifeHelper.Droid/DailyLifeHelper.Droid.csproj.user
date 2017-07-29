@@ -3,6 +3,6 @@
   <PropertyGroup>
     <SelectedDevice>Samsung GT-N7108D</SelectedDevice>
     <DefaultDevice>VisualStudio_android-23_arm_phone</DefaultDevice>
-    <ProjectView>ProjectFiles</ProjectView>
+    <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
 </Project>

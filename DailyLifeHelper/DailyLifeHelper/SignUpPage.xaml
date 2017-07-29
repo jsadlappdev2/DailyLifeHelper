@@ -3,17 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DailyLifeHelper.SignUpPage"
              Title="Sign Up"
-             BackgroundColor="Yellow">
+             BackgroundImage="loginbg.PNG">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="StartAndExpand">
-            <Label Text="Username" />
-            <Entry x:Name="usernameEntry" Placeholder="username"  />
-            <Label Text="Password" />
-            <Entry x:Name="passwordEntry" IsPassword="true" />
-            <Label Text="Email address" />
-            <Entry x:Name="emailEntry" />
-            <Button Text="Sign Up" Clicked="OnSignUpButtonClicked" />
-            <Label x:Name="messageLabel" TextColor="Red" />
-        </StackLayout>
+        <Frame OutlineColor="Accent" 
+                   WidthRequest="600" 
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand">
+            <StackLayout VerticalOptions="StartAndExpand">
+                <Label Text="Username" />
+                <Entry x:Name="usernameEntry" Placeholder="username"  />
+                <Label Text="Password" />
+                <Entry x:Name="passwordEntry"  Placeholder="password" IsPassword="true" />
+                <Label Text="Email address" />
+                <Entry x:Name="emailEntry" Placeholder="email address"/>
+                <Button Text="Sign Up" Clicked="OnSignUpButtonClicked" />
+                <Label x:Name="messageLabel" TextColor="Red" />
+            </StackLayout>
+        </Frame>
     </ContentPage.Content>
 </ContentPage>
