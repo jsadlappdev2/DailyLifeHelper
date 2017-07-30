@@ -20,11 +20,13 @@
                    WidthRequest="600" 
                    HorizontalOptions="Center"
                    VerticalOptions="CenterAndExpand">
-                    <StackLayout>
+                    <StackLayout Orientation="Vertical">
                         <Entry x:Name="usernameEntry" Placeholder="username"  />
                         <Entry x:Name="passwordEntry" Placeholder="password" IsPassword="true"   />
-                        <Button Text="Login" Clicked="OnLoginButtonClicked" />
-                        <Button Text="Forget Password" Clicked="ForgetpasswordButtonClicked" />
+                        <StackLayout Orientation="Horizontal">
+                            <Button HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand"  Text="Login" Clicked="OnLoginButtonClicked" />
+                            <Button HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand"  Text="Forget Password" Clicked="ForgetpasswordButtonClicked" />
+                        </StackLayout>
                         <Label x:Name="messageLabel" TextColor="Red" />
                     </StackLayout>
                 </Frame>

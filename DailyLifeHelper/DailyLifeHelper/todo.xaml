@@ -2,24 +2,21 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DailyLifeHelper.todo"
-               Title="ToDoLists"
+               Title="ToDo List"
              BackgroundColor="White">
-    <StackLayout Orientation="Vertical">
-        <StackLayout Padding="10,60,0,0">
-            <Label Text="---- Add a ToDo task ----" TextColor="Green">
-            </Label>
+    <StackLayout Orientation="Vertical" Padding="5,5,5,0">
+
+        <StackLayout Orientation="Vertical" Padding="5,5,5,0" >
+            <Entry x:Name="txtTodoItem" Placeholder="Your new ToDo task" HorizontalOptions="FillAndExpand"  VerticalOptions="CenterAndExpand" >    </Entry>
+            <DatePicker x:Name="dpDueDate" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand"> </DatePicker>
+            <StackLayout Orientation="Horizontal">
+                <Button HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand"  Text="Add" Clicked="AddButton_Clicked" >
+                </Button>
+                <Button HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" Text="Refresh" Clicked="RefreshButton_Clicked" >
+                </Button>
+            </StackLayout>
         </StackLayout>
-        <StackLayout Orientation="Horizontal" Padding="10,0,10,0">
-            <Entry x:Name="txtTodoItem" HorizontalOptions="Start" VerticalOptions="StartAndExpand" HeightRequest="40" WidthRequest="100" BackgroundColor="Blue">
-            </Entry>
-            <DatePicker x:Name="dpDueDate" HorizontalOptions="CenterAndExpand" HeightRequest="40" VerticalOptions="StartAndExpand" BackgroundColor="Blue">
-            </DatePicker>
-            <Button HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="40" Text="Add" Clicked="AddButton_Clicked" BorderWidth="1">
-            </Button>
-            <Button HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="40" Text="Refresh" Clicked="RefreshButton_Clicked" BorderWidth="1">
-            </Button>
-        </StackLayout>
-        <StackLayout Orientation="Vertical" Padding="10,5,10,0">
+        <StackLayout Orientation="Vertical" Padding="5,5,5,0">
             <Label Text="Pending Tasks" TextColor="Red">
             </Label>
             <ListView x:Name="todoList">
@@ -30,20 +27,26 @@
                                 <MenuItem Clicked="OnDone" CommandParameter="{Binding .}" Text="Done" />
                                 <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}" Text="Delete" IsDestructive="True" />
                             </ViewCell.ContextActions>
-                            <StackLayout Padding="10,10" Orientation="Horizontal">
-                                <Label Text="{ Binding id }" HorizontalOptions="StartAndExpand" TextColor="Green">
-                                </Label>
-                                <Label Text="{ Binding Description }" HorizontalOptions="StartAndExpand" TextColor="Green">
-                                </Label>
-                                <Label Text="Done" TextColor="Green" HorizontalOptions="Center" IsVisible="{Binding isDone}">
-                                </Label>
-                                <Label Text="{ Binding DueDate }" HorizontalOptions="End" TextColor="Green">
-                                </Label>
+                            <StackLayout Orientation="Vertical" Padding="5"  BackgroundColor="Silver" >
+                                <StackLayout Orientation="Horizontal" >
+                                    <Label Text="{ Binding id }" TextColor="Black" HorizontalOptions="Start" >
+                                    </Label>
+                                    <Label Text="{ Binding Description }" TextColor="Black"  HorizontalOptions="StartAndExpand" Font="Large" >
+                                    </Label>
+                                    <Label Text="Done" HorizontalOptions="Center" TextColor="Green" IsVisible="{Binding isDone} " Font="Bond">
+                                    </Label>
+                                    <Label Text="{ Binding DueDate }" TextColor="Black"  HorizontalOptions="End" >
+                                    </Label>
+                                                                
+                                </StackLayout>
+                              
                             </StackLayout>
+
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
         </StackLayout>
+
     </StackLayout>
 </ContentPage>

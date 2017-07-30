@@ -13,15 +13,15 @@ namespace DailyLifeHelper {
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Study\\MobileApps\\Xamarin\\DailyLifeHelper\\DailyLifeHelper\\DailyLifeHelper\\Daily" +
         "LifeHelper\\Home.xaml")]
-    public partial class Home : global::Xamarin.Forms.ContentPage {
+    public partial class HomeTabpage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label logon_username;
+        private global::Xamarin.Forms.Image BgImage;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Home));
-            logon_username = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "logon_username");
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(HomeTabpage));
+            BgImage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Image>(this, "BgImage");
         }
     }
 }

@@ -10,12 +10,12 @@ using Xamarin.Forms.Xaml;
 namespace DailyLifeHelper
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Home : ContentPage
+    public partial class HomeTabpage : ContentPage
     {
-        public Home()
+        public HomeTabpage()
         {
             InitializeComponent();
-            logon_username.Text = "Welcome " + App.sysusername + " !";
+           // logon_username.Text = "Welcome " + App.sysusername + " !";
         }
         private async void CallAPIButton_Clicked(object sender, EventArgs e)
         {

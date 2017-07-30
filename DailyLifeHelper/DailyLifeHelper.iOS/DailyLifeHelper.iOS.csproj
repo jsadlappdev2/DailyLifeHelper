@@ -24,8 +24,10 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <MtouchArch>i386, x86_64</MtouchArch>
-    <MtouchLink>None</MtouchLink>
+    <MtouchLink>SdkOnly</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
+    <CodesignKey>iPhone Developer: jsadlappdev@gmail.com (BL9FQEZU54)</CodesignKey>
+    <CodesignProvision>ff1d98ef-78d5-48aa-b4b2-ceaec4c6dec6</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -50,7 +52,7 @@
     <CodesignKey>iPhone Developer: jsadlappdev@gmail.com (BL9FQEZU54)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <CodesignProvision>0541801e-efff-4992-af9e-95fabc2cb04d</CodesignProvision>
+    <CodesignProvision>c3ddd6fd-5b24-4b3f-ab2e-40d75e4d7656</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>none</DebugType>
@@ -119,6 +121,8 @@
     <BundleResource Include="Resources\Icon-Small.png" />
     <BundleResource Include="Resources\Icon-Small%402x.png" />
     <BundleResource Include="Resources\Icon-Small%403x.png" />
+    <BundleResource Include="Resources\icon.PNG" />
+    <BundleResource Include="Resources\loginbg.PNG" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>

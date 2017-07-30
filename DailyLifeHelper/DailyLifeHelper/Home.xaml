@@ -1,66 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="DailyLifeHelper.Home"
+             x:Class="DailyLifeHelper.HomeTabpage"
              Title="Daily Life Helper"
-             BackgroundColor="White">
+            >
+    <AbsoluteLayout>
+        <Image x:Name="BgImage" Source="loginbg.PNG"
+               Aspect="AspectFill"
+               AbsoluteLayout.LayoutBounds="0.0, 0.0, 1.0, 1.0"
+               AbsoluteLayout.LayoutFlags="All"/>
 
-    <StackLayout BackgroundColor="White"
-                     Padding="60"
-                     VerticalOptions="Center">
-        <Grid Padding="0,0,0,50" >
-            <StackLayout Orientation="Vertical">
-                <Label x:Name="logon_username"
-                   TextColor="Blue" 
-                   VerticalOptions="Center"
-                   Font="20"/>
-                <Label Text="DailyLifeHelper" 
-                   TextColor="Blue" 
-                   VerticalOptions="Center"
-                   Font="20"/>
-            </StackLayout>
+        <StackLayout AbsoluteLayout.LayoutBounds="0.0, 0.0, 1.0, 1.0"
+                     AbsoluteLayout.LayoutFlags="All" 
+                         HorizontalOptions="Center">
 
-        </Grid>
-        <Grid Padding="0,0,0,50">
-
-            <Button Text="Navigate to Call REST API Demo"
+            <Grid Padding="5,5,5,10">
+                <Button Text="Todo List"
                     Clicked="CallAPIButton_Clicked"
-                    VerticalOptions="Center"
-                        BackgroundColor="Blue"
-                           TextColor="White"
-                           HorizontalOptions="Start"
-                           BorderWidth="1"/>
+                    VerticalOptions="Center"                       
+                           TextColor="Blue"                       
+                           BackgroundColor="Silver"
+                        Font="Bond"/>
 
-        </Grid>
-        <Grid Padding="0,0,0,50">
-            <Button Text="Check the Weather!"
-                    VerticalOptions="Center"
-                         BackgroundColor="Blue"
-                           TextColor="White"
-                        BorderWidth="1"
+            </Grid>
+            <Grid Padding="5,5,5,10">
+                <Button Text="Navigation"
+                    VerticalOptions="Center"                       
+                            TextColor="Blue"                       
+                           BackgroundColor="Silver"
+                        Font="Bond"
                    />
-        </Grid>
+            </Grid>
 
-        <Grid Padding="0,0,0,50">
-            <Button Text="What shall we do next?"
-                    VerticalOptions="Center"
-                         BackgroundColor="Blue"
-                           TextColor="White"
-                        BorderWidth="1"
-                   />
-        </Grid>
+            <Grid Padding="5,5,5,10">
+                <Button Text="Weather"
+                    VerticalOptions="Center"                
+                            TextColor="Blue"                       
+                           BackgroundColor="Silver"
+                        Font="Bond "/>
+            </Grid>
 
-        <Grid>
+           
 
-            <StackLayout Orientation="Horizontal">
-                <Button HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="40" Text="B1" BorderWidth="1" BackgroundColor="Blue" TextColor="White" />
-                <Button HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="40" Text="B2" BorderWidth="1" BackgroundColor="Blue" TextColor="White" />
-                <Button HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="40" Text="B2" BorderWidth="1" BackgroundColor="Blue" TextColor="White" />
-
-            </StackLayout>
-
-        </Grid>
-
-    </StackLayout>
+        </StackLayout>
+    </AbsoluteLayout>
 
 </ContentPage>

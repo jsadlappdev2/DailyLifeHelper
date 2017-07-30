@@ -51,7 +51,7 @@ namespace DailyLifeHelper
                             //user valid ok and go to Home page
                             App.IsUserLoggedIn = true;
                             App.sysusername = usernameEntry.Text.Trim();
-                            Navigation.InsertPageBefore(new Home(), this);
+                            Navigation.InsertPageBefore(new HomeTabpage(), this);
                             await Navigation.PopAsync();
                             break;
 

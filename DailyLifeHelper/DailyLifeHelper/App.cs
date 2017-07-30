@@ -26,6 +26,16 @@ namespace DailyLifeHelper
             {
 
                 MainPage = new NavigationPage(new Home());
+              //  MainPage = new TabbedPage
+              //  {
+                   // Children =
+                   // {
+                       // new todo(),
+                      //  new Page1()
+
+                   // }
+
+              //  };
             }
         }
 
@@ -43,5 +53,9 @@ namespace DailyLifeHelper
         {
             // Handle when your app resumes
         }
+    }
+
+    internal class Home : Page
+    {
     }
 }
