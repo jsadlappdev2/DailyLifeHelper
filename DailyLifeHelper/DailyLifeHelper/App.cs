@@ -17,26 +17,30 @@ namespace DailyLifeHelper
 
         public App()
         {
+         
             // The root page of your application
-            if (!IsUserLoggedIn)
-            {
+         if (!IsUserLoggedIn)
+         {
                 MainPage = new NavigationPage(new LoginPage());
-            }
-            else
-            {
+         
+             }
+        else
+         {
 
-                MainPage = new NavigationPage(new Home());
-              //  MainPage = new TabbedPage
-              //  {
-                   // Children =
-                   // {
-                       // new todo(),
-                      //  new Page1()
+           MainPage = new NavigationPage(new Home());
 
-                   // }
 
-              //  };
-            }
+            //  MainPage = new TabbedPage
+            //  {
+            // Children =
+            // {
+            // new todo(),
+            //  new Page1()
+
+            // }
+
+            //  };
+          }
         }
 
         protected override void OnStart()

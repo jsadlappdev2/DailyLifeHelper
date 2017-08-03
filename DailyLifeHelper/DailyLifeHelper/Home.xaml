@@ -15,32 +15,61 @@
                          HorizontalOptions="Center">
 
             <Grid Padding="5,5,5,10">
-                <Button Text="Todo List"
-                    Clicked="CallAPIButton_Clicked"
-                    VerticalOptions="Center"                       
-                           TextColor="Blue"                       
-                           BackgroundColor="Silver"
-                        Font="Bond"/>
+                <Image Source="todo.PNG">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="todo_image_tapped">
 
+                        </TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+
+
+                </Image>
             </Grid>
-            <Grid Padding="5,5,5,10">
-                <Button Text="Navigation"
-                    VerticalOptions="Center"                       
-                            TextColor="Blue"                       
-                           BackgroundColor="Silver"
-                        Font="Bond"
-                   />
-            </Grid>
+
 
             <Grid Padding="5,5,5,10">
-                <Button Text="Weather"
-                    VerticalOptions="Center"                
-                            TextColor="Blue"                       
-                           BackgroundColor="Silver"
-                        Font="Bond "/>
+                <Image Source="photo.PNG">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="photo_image_tapped">
+
+                        </TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+
+
+                </Image>
             </Grid>
 
-           
+            <Grid Padding="5,5,5,10">
+                <Image Source="weather.PNG">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="navigation_image_tapped">
+
+                        </TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+
+
+                </Image>
+            </Grid>
+
+
+
+
+
+            <Grid Padding="5,5,5,10">
+                <Image Source="navigation.PNG">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="navigation_image_tapped">
+
+                        </TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+
+
+                </Image>
+            </Grid>
+
+            
+
+
 
         </StackLayout>
     </AbsoluteLayout>

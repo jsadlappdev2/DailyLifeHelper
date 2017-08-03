@@ -2560,7 +2560,11 @@ containing a value of this type.
         public static final int mr_ic_pause_light=0x7f02009f;
         public static final int mr_ic_play_dark=0x7f0200a0;
         public static final int mr_ic_play_light=0x7f0200a1;
-        public static final int notification_template_icon_bg=0x7f0200a2;
+        public static final int navigation=0x7f0200a2;
+        public static final int notification_template_icon_bg=0x7f0200a6;
+        public static final int photo=0x7f0200a3;
+        public static final int todo=0x7f0200a4;
+        public static final int weather=0x7f0200a5;
     }
     public static final class id {
         public static final int action0=0x7f07008b;
@@ -2790,6 +2794,8 @@ containing a value of this type.
         public static final int support_simple_spinner_dropdown_item=0x7f030036;
     }
     public static final class string {
+        public static final int ApplicationName=0x7f080027;
+        public static final int Hello=0x7f080026;
         public static final int abc_action_bar_home_description=0x7f08000f;
         public static final int abc_action_bar_home_description_format=0x7f080010;
         public static final int abc_action_bar_home_subtitle_description_format=0x7f080011;

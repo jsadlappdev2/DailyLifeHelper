@@ -28,14 +28,14 @@
                                 <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}" Text="Delete" IsDestructive="True" />
                             </ViewCell.ContextActions>
                             <StackLayout Orientation="Vertical" Padding="5"  BackgroundColor="Silver" >
-                                <StackLayout Orientation="Horizontal" >
-                                    <Label Text="{ Binding id }" TextColor="Black" HorizontalOptions="Start" >
+                                <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" >
+                                    <Label Text="{ Binding id }" TextColor="Black" HorizontalOptions="Start" VerticalOptions="StartAndExpand" >
                                     </Label>
-                                    <Label Text="{ Binding Description }" TextColor="Black"  HorizontalOptions="StartAndExpand" Font="Large" >
+                                    <Label Text="{ Binding Description }" TextColor="Black"  HorizontalOptions="StartAndExpand" Font="Large" VerticalOptions="StartAndExpand" >
                                     </Label>
-                                    <Label Text="Done" HorizontalOptions="Center" TextColor="Green" IsVisible="{Binding isDone} " Font="Bond">
+                                    <Label Text="Done" HorizontalOptions="Center" TextColor="Green" IsVisible="{Binding isDone} " Font="Bond" VerticalOptions="StartAndExpand">
                                     </Label>
-                                    <Label Text="{ Binding DueDate }" TextColor="Black"  HorizontalOptions="End" >
+                                    <Label Text="{ Binding DueDate }" TextColor="Black"  HorizontalOptions="End" VerticalOptions="StartAndExpand" >
                                     </Label>
                                                                 
                                 </StackLayout>

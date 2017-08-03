@@ -99,9 +99,19 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "DailyLifeHelper.Droid.dll" comes first in this list. */
 		"DailyLifeHelper.Droid.dll",
-		"DailyLifeHelper.dll",
+		"AWSSDK.Core.dll",
+		"AWSSDK.S3.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
+		"PCLCrypto.dll",
+		"PCLStorage.Abstractions.dll",
+		"PCLStorage.dll",
+		"Plugin.CurrentActivity.dll",
+		"Plugin.Media.Abstractions.dll",
+		"Plugin.Media.dll",
+		"Plugin.Permissions.Abstractions.dll",
+		"Plugin.Permissions.dll",
+		"Validation.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",
@@ -114,6 +124,8 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"DailyLifeHelper.dll",
+		"System.Net.Http.Primitives.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

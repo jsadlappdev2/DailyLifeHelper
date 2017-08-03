@@ -21,8 +21,8 @@
                    HorizontalOptions="Center"
                    VerticalOptions="CenterAndExpand">
                     <StackLayout Orientation="Vertical">
-                        <Entry x:Name="usernameEntry" Placeholder="username"  />
-                        <Entry x:Name="passwordEntry" Placeholder="password" IsPassword="true"   />
+                        <Entry x:Name="usernameEntry" Placeholder="username" Text="test" />
+                        <Entry x:Name="passwordEntry" Placeholder="password" IsPassword="true"  Text="test" />
                         <StackLayout Orientation="Horizontal">
                             <Button HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand"  Text="Login" Clicked="OnLoginButtonClicked" />
                             <Button HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand"  Text="Forget Password" Clicked="ForgetpasswordButtonClicked" />

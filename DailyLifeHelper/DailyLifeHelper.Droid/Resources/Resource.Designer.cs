@@ -26,6 +26,10 @@ namespace DailyLifeHelper.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::PCLCrypto.Resource.String.ApplicationName = global::DailyLifeHelper.Droid.Resource.String.ApplicationName;
+			global::PCLCrypto.Resource.String.Hello = global::DailyLifeHelper.Droid.Resource.String.Hello;
+			global::PCLStorage.Resource.String.ApplicationName = global::DailyLifeHelper.Droid.Resource.String.ApplicationName;
+			global::PCLStorage.Resource.String.Hello = global::DailyLifeHelper.Droid.Resource.String.Hello;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::DailyLifeHelper.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -2204,7 +2208,19 @@ namespace DailyLifeHelper.Droid
 			public const int mr_ic_play_light = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int notification_template_icon_bg = 2130837666;
+			public const int navigation = 2130837666;
+			
+			// aapt resource value: 0x7f0200a6
+			public const int notification_template_icon_bg = 2130837670;
+			
+			// aapt resource value: 0x7f0200a3
+			public const int photo = 2130837667;
+			
+			// aapt resource value: 0x7f0200a4
+			public const int todo = 2130837668;
+			
+			// aapt resource value: 0x7f0200a5
+			public const int weather = 2130837669;
 			
 			static Drawable()
 			{
@@ -2927,6 +2943,12 @@ namespace DailyLifeHelper.Droid
 		
 		public partial class String
 		{
+			
+			// aapt resource value: 0x7f080027
+			public const int ApplicationName = 2131230759;
+			
+			// aapt resource value: 0x7f080026
+			public const int Hello = 2131230758;
 			
 			// aapt resource value: 0x7f08000f
 			public const int abc_action_bar_home_description = 2131230735;

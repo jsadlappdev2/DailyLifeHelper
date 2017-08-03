@@ -21,5 +21,22 @@ namespace DailyLifeHelper
         {
             await Navigation.PushAsync(new todo());
         }
+
+        async void todo_image_tapped(object sender, EventArgs args)
+        {
+            var imageSender = (Image)sender;
+            await Navigation.PushAsync(new todo());
+        }
+        void navigation_image_tapped(object sender, EventArgs args)
+        {
+            var imageSender = (Image)sender;
+            DisplayAlert("Alert", "Image tapped test", "OK");
+        }
+
+        async void photo_image_tapped(object sender, EventArgs args)
+        {
+            var imageSender = (Image)sender;
+            await Navigation.PushAsync(new takephoto());
+        }
     }
 }

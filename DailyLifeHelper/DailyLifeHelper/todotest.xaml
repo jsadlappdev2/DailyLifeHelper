@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DailyLifeHelper.todotest"
+             Title="Todo List Test">
+
+    <StackLayout Orientation="Vertical" Padding="5,5,5,0">
+
+        <StackLayout Orientation="Vertical" Padding="5,5,5,0" >
+            <Entry x:Name="txtTodoItem" Placeholder="Your new ToDo task" HorizontalOptions="FillAndExpand"  VerticalOptions="CenterAndExpand" ></Entry>
+            <DatePicker x:Name="dpDueDate" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand"></DatePicker>
+            <StackLayout Orientation="Horizontal">
+                <Button HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand"  Text="Add" Clicked="AddButton_Clicked" >
+                </Button>
+                <Button HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" Text="Refresh" Clicked="RefreshButton_Clicked" >
+                </Button>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Vertical" Padding="5,5,5,0" >
+            <ListView x:Name="todoList2"
+              HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Grid BackgroundColor="White"
+                              HeightRequest="10">
+
+                                <StackLayout Orientation="Vertical"
+                                         Padding="20"
+                                         BackgroundColor="Purple">
+                                    <Label Text="{ Binding id }" TextColor="Black" HorizontalOptions="Start" >
+                                    </Label>
+                                    <Label Text="{ Binding Description }" TextColor="Black"  HorizontalOptions="StartAndExpand" Font="Large" >
+                                    </Label>
+                                    <Label Text="Done" HorizontalOptions="Center" TextColor="Green" IsVisible="{Binding isDone} " Font="Bond">
+                                    </Label>
+                                    <Label Text="{ Binding DueDate }" TextColor="Black"  HorizontalOptions="End" >
+                                    </Label>
+
+
+
+
+
+
+
+                                </StackLayout>
+
+
+
+
+                            </Grid>
+
+
+
+
+
+
+
+                        </StackLayout>
+
+
+
+
+                    </ViewCell>
+
+
+
+
+
+
+                </DataTemplate>
+
+
+
+
+
+
+
+            </ListView.ItemTemplate>
+
+
+
+
+
+
+
+
+        </ListView>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
