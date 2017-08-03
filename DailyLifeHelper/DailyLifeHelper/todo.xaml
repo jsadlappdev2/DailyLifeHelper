@@ -19,7 +19,8 @@
         <StackLayout Orientation="Vertical" Padding="5,5,5,0">
             <Label Text="Pending Tasks" TextColor="Red">
             </Label>
-            <ListView x:Name="todoList">
+            <ListView x:Name="todoList"
+                      HasUnevenRows="True">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

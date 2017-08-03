@@ -2,20 +2,29 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DailyLifeHelper.takephoto"
-             Title="Task Photo">
+             Title="Take Photo and Upload to AWS S3">
     <StackLayout Orientation="Vertical">
-
-        <Button x:Name="TakePictureButton"
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="TakePictureButton"
                 Clicked="TakePictureButton_Clicked"
-                Text="Take from Camera"/>
-        <Button x:Name="UploadPictureButton"
+                Text="Camera"/>
+            <Button x:Name="UploadPictureButton"
                 Clicked="UploadPictureButton_Clicked"
-                Text="Pick a photo"/>
-        <Button x:Name="UploadtoS3"
+                Text="PickPhoto"/>
+            <Button x:Name="UploadtoS3"
                 Clicked="UploadtoS3_Clicked"
-                Text="Upload file to S3"/>
-        <Label x:Name="message" />
-        <Image x:Name="Image1" HeightRequest="240"/>
+                Text="UploadToS3"/>
+            <Button x:Name="GetImageFromS3"
+                Clicked="GetImageFromS3_Clicked"
+                Text="GetFromS3"/>
+        </StackLayout>
+        <StackLayout Orientation="Vertical">
+        <Label x:Name="file_path" />
+        <Label x:Name="msg" />
+        <Label x:Name="S3Url"/>
+        <Image x:Name="Image1" />
+        <Image x:Name="Image2" />
+        </StackLayout>
 
     </StackLayout>
 </ContentPage>
