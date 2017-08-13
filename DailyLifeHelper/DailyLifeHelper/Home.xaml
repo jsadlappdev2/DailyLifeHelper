@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DailyLifeHelper.HomeTabpage"
              Title="Daily Life Helper"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
             >
     <AbsoluteLayout>
         <Image x:Name="BgImage" Source="loginbg.PNG"
@@ -12,66 +13,319 @@
 
         <StackLayout AbsoluteLayout.LayoutBounds="0.0, 0.0, 1.0, 1.0"
                      AbsoluteLayout.LayoutFlags="All" 
-                         HorizontalOptions="Center">
+                         HorizontalOptions="Center"
+                     Orientation="Vertical">
 
-            <Grid Padding="5,5,5,10">
-                <Image Source="todo.PNG">
-                    <Image.GestureRecognizers>
+            <StackLayout Orientation="Horizontal" Padding="5">
+                <controls:CircleImage Source="todo.PNG" Aspect="AspectFill" BorderColor="White" BorderThickness="5">
+                    <controls:CircleImage.WidthRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.WidthRequest>
+                    <controls:CircleImage.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.HeightRequest>
+                    <controls:CircleImage.GestureRecognizers>
                         <TapGestureRecognizer Tapped="todo_image_tapped">
-
                         </TapGestureRecognizer>
-                    </Image.GestureRecognizers>
+                    </controls:CircleImage.GestureRecognizers>
+                </controls:CircleImage>
+
+                <controls:CircleImage Source="Developing.PNG" Aspect="AspectFill" BorderColor="White" BorderThickness="5">
+                    <controls:CircleImage.WidthRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.WidthRequest>
+                    <controls:CircleImage.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.HeightRequest>
+                    <controls:CircleImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="deveoping">
+                        </TapGestureRecognizer>
+                    </controls:CircleImage.GestureRecognizers>
+                </controls:CircleImage>
+
+                <controls:CircleImage Source="Developing.PNG" Aspect="AspectFill" BorderColor="White" BorderThickness="5">
+                    <controls:CircleImage.WidthRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.WidthRequest>
+                    <controls:CircleImage.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.HeightRequest>
+                    <controls:CircleImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="deveoping">
+                        </TapGestureRecognizer>
+                    </controls:CircleImage.GestureRecognizers>
+                </controls:CircleImage>
+            </StackLayout>
 
 
-                </Image>
-            </Grid>
-
-
-            <Grid Padding="5,5,5,10">
-                <Image Source="photo.PNG">
-                    <Image.GestureRecognizers>
+            <StackLayout Orientation="Horizontal" Padding="5">
+                <controls:CircleImage Source="photo.PNG" Aspect="AspectFill" BorderColor="White" BorderThickness="5">
+                    <controls:CircleImage.WidthRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.WidthRequest>
+                    <controls:CircleImage.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.HeightRequest>
+                    <controls:CircleImage.GestureRecognizers>
                         <TapGestureRecognizer Tapped="photo_image_tapped">
-
                         </TapGestureRecognizer>
-                    </Image.GestureRecognizers>
-
-
-                </Image>
-            </Grid>
-
-            <Grid Padding="5,5,5,10">
-                <Image Source="weather.PNG">
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="navigation_image_tapped">
-
+                    </controls:CircleImage.GestureRecognizers>
+                </controls:CircleImage>
+                <controls:CircleImage Source="photo_CHN.PNG" Aspect="AspectFill" BorderColor="White" BorderThickness="5">
+                    <controls:CircleImage.WidthRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.WidthRequest>
+                    <controls:CircleImage.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.HeightRequest>
+                    <controls:CircleImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="photototext">
                         </TapGestureRecognizer>
-                    </Image.GestureRecognizers>
-
-
-                </Image>
-            </Grid>
-
-
-
-
-
-            <Grid Padding="5,5,5,10">
-                <Image Source="navigation.PNG">
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="navigation_image_tapped">
-
+                    </controls:CircleImage.GestureRecognizers>
+                </controls:CircleImage>
+                <controls:CircleImage Source="selectlang.png" Aspect="AspectFill" BorderColor="White" BorderThickness="5">
+                    <controls:CircleImage.WidthRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.WidthRequest>
+                    <controls:CircleImage.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.HeightRequest>
+                    <controls:CircleImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="getlanguage">
                         </TapGestureRecognizer>
-                    </Image.GestureRecognizers>
+                    </controls:CircleImage.GestureRecognizers>
+                </controls:CircleImage>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Padding="5">
+
+                <controls:CircleImage Source="GPS1.PNG" Aspect="AspectFill" BorderColor="White" BorderThickness="5">
+                    <controls:CircleImage.WidthRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.WidthRequest>
+                    <controls:CircleImage.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.HeightRequest>
+                    <controls:CircleImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="GPS1_tapped">
+                        </TapGestureRecognizer>
+                    </controls:CircleImage.GestureRecognizers>
+                </controls:CircleImage>
 
 
-                </Image>
-            </Grid>
+                <controls:CircleImage Source="GPS2.PNG" Aspect="AspectFill" BorderColor="White" BorderThickness="5">
+                    <controls:CircleImage.WidthRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.WidthRequest>
+                    <controls:CircleImage.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.HeightRequest>
+                    <controls:CircleImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="deveoping">
+                        </TapGestureRecognizer>
+                    </controls:CircleImage.GestureRecognizers>
+                </controls:CircleImage>
 
-            
+                <controls:CircleImage Source="navigation.PNG" Aspect="AspectFill" BorderColor="White" BorderThickness="5">
+                    <controls:CircleImage.WidthRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.WidthRequest>
+                    <controls:CircleImage.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.HeightRequest>
+                    <controls:CircleImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="deveoping">
+                        </TapGestureRecognizer>
+                    </controls:CircleImage.GestureRecognizers>
+                </controls:CircleImage>
+            </StackLayout>
 
+
+            <StackLayout Orientation="Horizontal" Padding="5">
+
+                <controls:CircleImage Source="weather.PNG" Aspect="AspectFill" BorderColor="White" BorderThickness="5">
+                    <controls:CircleImage.WidthRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.WidthRequest>
+                    <controls:CircleImage.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.HeightRequest>
+                    <controls:CircleImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="weather_tapped">
+                        </TapGestureRecognizer>
+                    </controls:CircleImage.GestureRecognizers>
+                </controls:CircleImage>
+
+
+                <controls:CircleImage Source="weather_forecast.PNG" Aspect="AspectFill" BorderColor="White" BorderThickness="5">
+                    <controls:CircleImage.WidthRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.WidthRequest>
+                    <controls:CircleImage.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.HeightRequest>
+                    <controls:CircleImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="forecast_tapped">
+                        </TapGestureRecognizer>
+                    </controls:CircleImage.GestureRecognizers>
+                </controls:CircleImage>
+
+                <controls:CircleImage Source="Developing.PNG" Aspect="AspectFill" BorderColor="White" BorderThickness="5">
+                    <controls:CircleImage.WidthRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.WidthRequest>
+                    <controls:CircleImage.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.HeightRequest>
+                    <controls:CircleImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="deveoping">
+                        </TapGestureRecognizer>
+                    </controls:CircleImage.GestureRecognizers>
+                </controls:CircleImage>
+            </StackLayout>
+
+
+
+            <StackLayout Orientation="Horizontal" Padding="5">
+
+                <controls:CircleImage Source="google_text.PNG" Aspect="AspectFill" BorderColor="White" BorderThickness="5">
+                    <controls:CircleImage.WidthRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.WidthRequest>
+                    <controls:CircleImage.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.HeightRequest>
+                    <controls:CircleImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="googletextdetect">
+                        </TapGestureRecognizer>
+                    </controls:CircleImage.GestureRecognizers>
+                </controls:CircleImage>
+
+                <controls:CircleImage Source="google_trans.PNG" Aspect="AspectFill" BorderColor="White" BorderThickness="5">
+                    <controls:CircleImage.WidthRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.WidthRequest>
+                    <controls:CircleImage.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.HeightRequest>
+                    <controls:CircleImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="googletranslateit">
+                        </TapGestureRecognizer>
+                    </controls:CircleImage.GestureRecognizers>
+                </controls:CircleImage>
+
+
+                <controls:CircleImage Source="google_speech.PNG" Aspect="AspectFill" BorderColor="White" BorderThickness="5">
+                    <controls:CircleImage.WidthRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.WidthRequest>
+                    <controls:CircleImage.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                           iOS="100"
+                           Android="100"
+                           WinPhone="100"/>
+                    </controls:CircleImage.HeightRequest>
+                    <controls:CircleImage.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="deveoping">
+                        </TapGestureRecognizer>
+                    </controls:CircleImage.GestureRecognizers>
+                </controls:CircleImage>
+
+
+            </StackLayout>
 
 
         </StackLayout>
+
+
+
     </AbsoluteLayout>
 
 </ContentPage>

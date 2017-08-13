@@ -29,7 +29,7 @@
                                 <StackLayout Orientation="Vertical"
                                          Padding="20"
                                          BackgroundColor="Purple">
-                                    <Label Text="{ Binding id }" TextColor="Black" HorizontalOptions="Start" >
+                                        <Label Text="{ Binding id }" TextColor="Black" HorizontalOptions="StartAndExpand" >
                                     </Label>
                                     <Label Text="{ Binding Description }" TextColor="Black"  HorizontalOptions="StartAndExpand" Font="Large" >
                                     </Label>

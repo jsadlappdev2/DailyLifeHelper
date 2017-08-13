@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DailyLifeHelper.Map_External"
+             Title="Navigation to Address">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="labelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#a8a8a8" />
+                <Setter Property="FontSize" Value="Small" />
+            </Style>
+            <Style x:Key="fieldStyle" TargetType="Label">
+                <Setter Property="TextColor">
+                    <OnPlatform x:TypeArguments="Color" iOS="Black" Android="White" WinPhone="White" />
+                </Setter>
+                <Setter Property="FontSize" Value="Medium" />
+            </Style>
+            <Style x:Key="fieldView" TargetType="ContentView">
+                <Setter Property="Padding" Value="10,0,0,0" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+   
+    
+            <StackLayout>
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand"
+              BackgroundColor="#545454">
+                    <StackLayout Padding="10,10,10,10" HorizontalOptions="Start" Orientation="Vertical">
+                        <Label Text="Navigation" TextColor="White" FontAttributes="Bold"
+                FontSize="Medium" />
+                        <Label x:Name="addresslabel" Text="Destination Address" Style="{StaticResource labelStyle}" />
+                        <Entry x:Name="Destination" Text="33 Devereux Road, Linden Park, SA 5065"/>
+                        <Label x:Name="msg" TextColor="Red"/>
+                    </StackLayout>
+                    <StackLayout Padding="0,10,0,0" HorizontalOptions="Start">
+                        <Button x:Name="GoBtn" Text="GO!" WidthRequest="185" BorderWidth="1" Clicked="GoBtn_Clicked" >
+                            <!-- Set iOS colors; use defaults on other platforms -->
+                            <Button.TextColor>
+                                <OnPlatform x:TypeArguments="Color" iOS="White"/>
+                            </Button.TextColor>
+                            <Button.BorderColor>
+                                <OnPlatform x:TypeArguments="Color" iOS="White"/>
+                            </Button.BorderColor>
+                        </Button>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+
+
+</ContentPage>

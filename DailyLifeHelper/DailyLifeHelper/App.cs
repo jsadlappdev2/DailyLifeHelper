@@ -17,6 +17,7 @@ namespace DailyLifeHelper
 
         public App()
         {
+
          
             // The root page of your application
          if (!IsUserLoggedIn)

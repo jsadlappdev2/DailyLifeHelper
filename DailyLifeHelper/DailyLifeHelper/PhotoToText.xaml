@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DailyLifeHelper.PhotoToText"
+             Title="Get Text from Photo">
+    <StackLayout Orientation="Vertical">
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="TakePhoto"
+                Clicked="TakePhoto_Clicked"
+                Text="Take photo using Camera"
+                BorderColor="Silver"
+                    HorizontalOptions="StartAndExpand"/>
+            <Button x:Name="SelectPhoto"
+                Clicked="SelectPhoto_Clicked"
+                Text="Select a photo"
+                BorderColor="Silver"
+                    HorizontalOptions="End"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="GetText"
+                Clicked="GetTexttakephoto_Clicked"
+                Text="TextFromPickedPhoto"
+                BorderColor="Silver"
+                    HorizontalOptions="StartAndExpand"
+                    />
+            <Button x:Name="GetText_takephoto"
+                Clicked="GetTexttakephoto_Clicked"
+                Text="TextFromTakedPhoto"
+                BorderColor="Silver"
+                    HorizontalOptions="StartAndExpand"
+                    />
+
+        </StackLayout>
+        <StackLayout  Orientation="Horizontal">
+            <Button x:Name="ReadText"
+                Clicked="ReadText_Clicked"
+                Text="Read Text"
+                     BorderColor="Silver"
+                    HorizontalOptions="End"/>
+            <Button x:Name="Querydictory"
+                Clicked="Querydictory_Clicked"
+                Text="Dictory"
+                     BorderColor="Silver"/>
+            <Button x:Name="Translate"
+                Clicked="Translate_Clicked"
+                Text="Translate"
+                     BorderColor="Silver"/>
+        </StackLayout>
+        <StackLayout Orientation="Vertical">
+          
+            <Label x:Name="msg" />
+          
+            <Image x:Name="Image1" HeightRequest="200" WidthRequest="200"/>
+
+            <Label x:Name="TextLabel" Text="Text will be extracted from photo."/>
+
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>

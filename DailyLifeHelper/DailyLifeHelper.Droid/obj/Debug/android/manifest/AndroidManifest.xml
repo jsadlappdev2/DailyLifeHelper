@@ -8,6 +8,8 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
   <uses-feature android:name="android.hardware.camera" android:required="false" />
   <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
   <application android:name="md52c4ad8bd19013e27c495afeae767a3d1.MainApplication" android:allowBackup="true" android:label="DailyLifeHelper.Droid.DailyLifeHelper.Droid" android:icon="@drawable/icon" android:debuggable="true">

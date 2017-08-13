@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DailyLifeHelper.checklanguage"
+             Title="Select your language">
+    <StackLayout Orientation="Vertical" >
+        <Label x:Name="langlabel1" Text="useDefaults" HorizontalOptions="StartAndExpand"></Label>
+        <Switch x:Name="useDefaults" IsToggled="False" HorizontalOptions="StartAndExpand"></Switch>
+        <Label x:Name="langlabel2" Text="pitch" HorizontalOptions="StartAndExpand"></Label>
+        <Slider x:Name="sliderPitch"  ></Slider>
+        <Label x:Name="langlabel3" Text="Rate" HorizontalOptions="StartAndExpand"></Label>
+        <Slider x:Name="sliderRate" ></Slider>
+        <Label x:Name="langlabel4" Text="Volume" HorizontalOptions="StartAndExpand"></Label>
+        <Slider x:Name="sliderVolume" ></Slider>
+        <Label x:Name="langlabel6" Text="Your selected language is: " HorizontalOptions="StartAndExpand"></Label>
+        <Label x:Name="langlabel"></Label>
+        <Entry x:Name="textlabel" Text="input your text"></Entry>
+        <Button x:FieldModifier="checkbtn" Text="Check Language" HorizontalOptions="StartAndExpand"  Clicked="checkbtn_Clicked"></Button>
+        <Button x:FieldModifier="speakbtn" Text="Speak Text" HorizontalOptions="StartAndExpand"  Clicked="speakbtn_Clicked"></Button>
+
+
+
+
+
+
+    </StackLayout>
+</ContentPage>

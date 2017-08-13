@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using Newtonsoft.Json;
 using DailyLifeHelper.Models;
+using Newtonsoft.Json.Linq;
 
 namespace DailyLifeHelper.DataService
 {
@@ -102,6 +103,31 @@ namespace DailyLifeHelper.DataService
             var response = await client.GetAsync(url);
             var result = JsonConvert.DeserializeObject<int>(response.Content.ReadAsStringAsync().Result);
             return result;
+        }
+        //get weather by postcode
+        public async Task<List<openweather>> GetOpenweatherAsync(string postocode)
+        {
+
+            var response = await client.GetStringAsync("http://api.openweathermap.org/data/2.5/weather?APPID=0a89bd38420492ff150a74711822a6ff&zip="+postocode+",au");
+            var openweather = JsonConvert.DeserializeObject<List<openweather>>(response);
+            return openweather;
+        }
+
+
+        // call service
+        public static async Task<JContainer> getDataFromService(string queryString)
+        {
+            HttpClient client = new HttpClient();
+            var response = await client.GetAsync(queryString);
+
+            JContainer data = null;
+            if (response != null)
+            {
+                string json = response.Content.ReadAsStringAsync().Result;
+                data = (JContainer)JsonConvert.DeserializeObject(json);
+            }
+
+            return data;
         }
     }
 }

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DailyLifeHelper.Google_TextDetect"
+               Title="Google Text Detection Service">
+    <StackLayout Orientation="Vertical">
+
+        <Button x:Name="GetText_takephoto"
+                Clicked="GetTexttakephoto_test"
+                Text="TakePhotoToText"
+                BorderColor="Silver"
+                    HorizontalOptions="StartAndExpand"
+                    />
+
+
+
+        <Button x:Name="ReadText"
+                Clicked="ReadText_Clicked"
+                Text="Read Text"
+                     BorderColor="Silver"
+                   HorizontalOptions="StartAndExpand"/>
+
+
+
+        <Label x:Name="msg" />
+
+        <Image x:Name="Image1" HeightRequest="200" WidthRequest="200"/>
+
+        <Label x:Name="TextLabel" Text="Text will be extracted from photo."/>
+
+
+    </StackLayout>
+</ContentPage>

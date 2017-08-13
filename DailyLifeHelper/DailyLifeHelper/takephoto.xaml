@@ -7,16 +7,21 @@
         <StackLayout Orientation="Horizontal">
             <Button x:Name="TakePictureButton"
                 Clicked="TakePictureButton_Clicked"
-                Text="Camera"/>
+                Text="Camera"
+                BorderColor="Silver"/>
             <Button x:Name="UploadPictureButton"
                 Clicked="UploadPictureButton_Clicked"
-                Text="PickPhoto"/>
+                Text="PickPhoto"
+                BorderColor="Silver"/>
             <Button x:Name="UploadtoS3"
                 Clicked="UploadtoS3_Clicked"
-                Text="UploadToS3"/>
+                Text="UploadToS3"
+                BorderColor="Silver"
+                    />
             <Button x:Name="GetImageFromS3"
                 Clicked="GetImageFromS3_Clicked"
-                Text="GetFromS3"/>
+                Text="GetFromS3"
+                     BorderColor="Silver"/>
         </StackLayout>
         <StackLayout Orientation="Vertical">
         <Label x:Name="file_path" />
