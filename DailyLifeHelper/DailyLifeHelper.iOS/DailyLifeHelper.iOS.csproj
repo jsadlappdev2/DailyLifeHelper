@@ -52,7 +52,7 @@
     <CodesignKey>iPhone Developer: jsadlappdev@gmail.com (BL9FQEZU54)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <CodesignProvision>20fddb07-ac9f-4f31-9473-dd8ae3be3009</CodesignProvision>
+    <CodesignProvision>0e2db88e-c063-4de6-b6c8-b1c7dc123420</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>none</DebugType>

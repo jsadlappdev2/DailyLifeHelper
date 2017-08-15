@@ -72,6 +72,7 @@ E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\Dail
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\bin\Debug\Xamarin.Forms.Xaml.pdb
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\bin\Debug\Xamarin.Forms.Xaml.xml
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.csproj.App.config
+E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.csprojResolveAssemblyReference.cache
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.Home.xaml.g.cs
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.todo.xaml.g.cs
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.LoginPage.xaml.g.cs
@@ -86,6 +87,6 @@ E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\Dail
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.PhotoToText.xaml.g.cs
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.checklanguage.xaml.g.cs
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.Google_TextDetect.xaml.g.cs
+E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.Google_translate.xaml.g.cs
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.dll
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.pdb
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.Google_translate.xaml.g.cs

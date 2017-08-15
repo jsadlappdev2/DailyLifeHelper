@@ -5,28 +5,23 @@
                Title="Google Text Detection Service">
     <StackLayout Orientation="Vertical">
 
-        <Button x:Name="GetText_takephoto"
-                Clicked="GetTexttakephoto_test"
-                Text="TakePhotoToText"
-                BorderColor="Silver"
-                    HorizontalOptions="StartAndExpand"
-                    />
+        <Button x:Name="GetText_takephoto"   Clicked="GetTexttakephoto_Clicked"   Text="Take Photo" />
 
-
-
-        <Button x:Name="ReadText"
-                Clicked="ReadText_Clicked"
-                Text="Read Text"
-                     BorderColor="Silver"
-                   HorizontalOptions="StartAndExpand"/>
-
-
+        <StackLayout Orientation="Horizontal">
+       
+        <Button x:Name="ReadText1"  Clicked="ReadChineseText_Clicked"  Text="Read in Chinese" HorizontalOptions="StartAndExpand"/>
+        <Button x:Name="ReadText2"  Clicked="ReadEnglishText_Clicked"  Text="Read in English" HorizontalOptions="EndAndExpand"/>
+        </StackLayout>
 
         <Label x:Name="msg" />
 
-        <Image x:Name="Image1" HeightRequest="200" WidthRequest="200"/>
+        <Label x:Name="TextLabel" Text=""/>
+        <StackLayout Orientation="Horizontal">
 
-        <Label x:Name="TextLabel" Text="Text will be extracted from photo."/>
+            <Button x:Name="TransText1"  Clicked="TransChineseText_Clicked"  Text="Translate To English" HorizontalOptions="StartAndExpand"/>
+            <Button x:Name="TransText2"  Clicked="TransEnglishText_Clicked"  Text="Translate to  Chinese" HorizontalOptions="EndAndExpand"/>
+        </StackLayout>
+        <Label x:Name="TransLabel" Text=""/>
 
 
     </StackLayout>

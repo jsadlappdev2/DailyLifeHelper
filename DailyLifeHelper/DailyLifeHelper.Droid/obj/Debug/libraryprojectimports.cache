@@ -15,8 +15,6 @@
     <ResolvedResourceDirectory>E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\__library_projects__\Plugin.TextToSpeech\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\__library_projects__\Plugin.Settings\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\__library_projects__\Plugin.ExternalMaps\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\AWSSDK.Core\library_project_imports\assets</ResolvedAssetDirectory>
@@ -32,8 +30,6 @@
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Plugin.TextToSpeech\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Plugin.Settings\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Plugin.ExternalMaps\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
@@ -50,7 +46,5 @@
     <ResolvedResourceDirectoryStamp>E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\__library_projects__\Plugin.TextToSpeech.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\__library_projects__\Plugin.Settings.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\__library_projects__\Plugin.ExternalMaps.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>
