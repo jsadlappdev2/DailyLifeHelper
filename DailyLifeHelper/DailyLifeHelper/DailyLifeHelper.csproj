@@ -39,6 +39,8 @@
     <Compile Include="checklanguage.xaml.cs">
       <DependentUpon>checklanguage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="EventArgsVoiceRecognition.cs" />
+    <Compile Include="ISpeechToText.cs" />
     <Compile Include="DataService\DataService.cs" />
     <Compile Include="DataService\GoogleAPIServices.cs" />
     <Compile Include="DataService\WeatherCore.cs" />
@@ -86,12 +88,16 @@
     <Compile Include="SignUpPage.xaml.cs">
       <DependentUpon>SignUpPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SpeechToText.xaml.cs">
+      <DependentUpon>SpeechToText.xaml</DependentUpon>
+    </Compile>
     <Compile Include="takephoto.xaml.cs">
       <DependentUpon>takephoto.xaml</DependentUpon>
     </Compile>
     <Compile Include="todo.xaml.cs">
       <DependentUpon>todo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="VoiceButton.cs" />
     <Compile Include="WeatherbyZIP.xaml.cs">
       <DependentUpon>WeatherbyZIP.xaml</DependentUpon>
     </Compile>
@@ -262,6 +268,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="CustomView\" />
     <Folder Include="ViewModel\" />
   </ItemGroup>
   <ItemGroup>
@@ -302,6 +309,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Google_translate.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SpeechToText.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

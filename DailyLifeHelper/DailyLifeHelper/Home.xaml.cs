@@ -78,5 +78,13 @@ namespace DailyLifeHelper
         {
             await Navigation.PushAsync(new Google_translate());
         }
+
+
+        async void speechtotext_tapped(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new SpeechToText());
+        }
+
+
     }
 }

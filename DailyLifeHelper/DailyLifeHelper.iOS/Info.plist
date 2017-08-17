@@ -52,5 +52,9 @@
     <string>This app needs access to the camera to take photos.</string>
     <key>NSPhotoLibraryUsageDescription</key>
     <string>This app needs access to photos.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Allows you create tasks</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Allows you to recognise your voice to create tasks</string>
   </dict>
 </plist>

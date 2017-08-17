@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DailyLifeHelper.SpeechToText" 
+             xmlns:local ="clr-namespace:DailyLifeHelper"
+             Title="Speech to Text">
+    <StackLayout x:Name="iOSLayout" Orientation="Vertical"  IsVisible="False">
+        <Button x:Name="nameButtonStart" Text="Start" Clicked="OnStart"></Button>
+        <Label HorizontalOptions="CenterAndExpand"  x:Name="textLabeliOS" Text="Text Will Appear here" ></Label>
+        <Button IsEnabled="false" x:Name="nameButtonStop" Text="Stop" Clicked="OnStop"></Button>
+    </StackLayout>
+    <StackLayout x:Name="androidLayout" Orientation="Vertical"  IsVisible="False">
+        <local:VoiceButton  x:Name="voiceButton" Text="Record Voice" IsVisible="true" />
+        <Label HorizontalOptions="CenterAndExpand"  x:Name="textLabelDroid" Text="Text Will Appear here" ></Label>
+    </StackLayout>
+</ContentPage>
