@@ -2,10 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DailyLifeHelper.Google_TextDetect"
-               Title="Google Text Detection Service">
+               Title="Google Text Detection Service"            >
     <StackLayout Orientation="Vertical">
 
+       
         <Button x:Name="GetText_takephoto"   Clicked="GetTexttakephoto_Clicked"   Text="Take Photo" />
+        <ActivityIndicator x:Name="indicator" IsRunning="False" IsVisible="False" Color="Gray"/>
+
 
         <StackLayout Orientation="Horizontal">
        
@@ -15,13 +18,14 @@
 
         <Label x:Name="msg" />
 
-        <Label x:Name="TextLabel" Text=""/>
+      
+        <Editor x:Name="TextLabel" HeightRequest="150" HorizontalOptions="FillAndExpand" Text="Text from Picture will show here"></Editor>
         <StackLayout Orientation="Horizontal">
 
             <Button x:Name="TransText1"  Clicked="TransChineseText_Clicked"  Text="Translate To English" HorizontalOptions="StartAndExpand"/>
             <Button x:Name="TransText2"  Clicked="TransEnglishText_Clicked"  Text="Translate to  Chinese" HorizontalOptions="EndAndExpand"/>
         </StackLayout>
-        <Label x:Name="TransLabel" Text=""/>
+        <Editor x:Name="TransLabel" HeightRequest="150" HorizontalOptions="FillAndExpand" Text="Translate Text will show here"></Editor>
 
 
     </StackLayout>

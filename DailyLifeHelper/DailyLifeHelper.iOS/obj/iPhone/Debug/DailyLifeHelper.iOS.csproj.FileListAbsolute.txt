@@ -135,8 +135,8 @@ E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\Dail
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.iOS\obj\iPhone\Debug\optimized\google_text.PNG
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.iOS\obj\iPhone\Debug\optimized\google_trans.PNG
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.iOS\obj\iPhone\Debug\optimized\selectlang.png
+E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.iOS\obj\iPhone\Debug\optimized\voicereg.PNG
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.iOS\obj\iPhone\Debug\optimized\
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.iOS\obj\iPhone\Debug\DailyLifeHelper.iOS.csprojResolveAssemblyReference.cache
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.iOS\obj\iPhone\Debug\DailyLifeHelperiOS.exe
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.iOS\obj\iPhone\Debug\DailyLifeHelperiOS.pdb
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.iOS\obj\iPhone\Debug\optimized\voicereg.PNG

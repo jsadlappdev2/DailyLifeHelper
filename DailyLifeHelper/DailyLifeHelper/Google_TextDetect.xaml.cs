@@ -15,6 +15,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using static Newtonsoft.Json.JsonConvert;
 using Plugin.TextToSpeech.Abstractions;
+
 //using Google.Cloud.Vision.V1;
 
 namespace DailyLifeHelper
@@ -22,14 +23,19 @@ namespace DailyLifeHelper
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Google_TextDetect : ContentPage
 	{
+      
         static CrossLocale? locale = null;
         DataService.googleapiservice googleapiservice;
         List<googleapiservice.GoogleTranSource> source;
+
+        DataService.SetIsLoading myisloading;
 
         public Google_TextDetect()
         {
             InitializeComponent();
             googleapiservice = new DataService.googleapiservice();
+            myisloading = new DataService.SetIsLoading();
+            myisloading.IsLoading = false;
         }
 
 
@@ -40,6 +46,10 @@ namespace DailyLifeHelper
 
         async void GetTexttakephoto_Clicked(object sender, EventArgs e)
         {
+       
+            if (indicator.IsRunning) return;
+         
+
             try
             {
 
@@ -78,8 +88,12 @@ namespace DailyLifeHelper
 
                 try
                 {
+                    //  myisloading.IsLoading = true;
+                    indicator.IsRunning = true;
+                    indicator.IsVisible = true;
+                    
                     //get image into base64string
-                  
+
                     BinaryReader binaryReader = new BinaryReader(stream);
 
                     byte[] byteData = binaryReader.ReadBytes((int)stream.Length);
@@ -172,6 +186,9 @@ namespace DailyLifeHelper
 
 
             }
+            // myisloading.IsLoading = false;
+            indicator.IsRunning = false;
+            indicator.IsVisible = false;
 
         }
 

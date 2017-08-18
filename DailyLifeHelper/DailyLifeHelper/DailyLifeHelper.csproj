@@ -39,6 +39,7 @@
     <Compile Include="checklanguage.xaml.cs">
       <DependentUpon>checklanguage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DataService\SetIsLoading.cs" />
     <Compile Include="EventArgsVoiceRecognition.cs" />
     <Compile Include="ISpeechToText.cs" />
     <Compile Include="DataService\DataService.cs" />

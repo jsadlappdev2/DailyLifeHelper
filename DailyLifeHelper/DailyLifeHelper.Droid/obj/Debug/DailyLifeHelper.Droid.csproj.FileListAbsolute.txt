@@ -1,4 +1,3 @@
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\DailyLifeHelper.Droid.csprojResolveAssemblyReference.cache
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\bin\Debug\DailyLifeHelper.Droid.dll.config
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\bin\Debug\DailyLifeHelper.Droid.dll
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\bin\Debug\DailyLifeHelper.Droid.pdb
@@ -107,9 +106,13 @@ E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\Dail
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\DailyLifeHelper.Droid.csprojResolveAssemblyReference.cache
+E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\DailyLifeHelper.Droid.Resources.Tabbar.xaml.g.cs
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\DailyLifeHelper.Droid.dll
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\DailyLifeHelper.Droid.pdb
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\bin\DailyLifeHelper.Droid.DailyLifeHelper.Droid.apk
+E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\res\layout\tabbar.xml
+E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\res\layout\toolbar.xml
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\res\drawable\icon.png
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\res\drawable-hdpi\icon.png
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\res\drawable-xhdpi\icon.png
@@ -170,11 +173,12 @@ E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\Dail
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\res\drawable-xxhdpi\google_text.png
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\res\drawable-xxhdpi\google_trans.png
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\res\drawable-xxhdpi\selectlang.png
+E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\res\drawable\voicereg.png
+E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\res\drawable-hdpi\voicereg.png
+E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\res\drawable-xhdpi\voicereg.png
+E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\res\drawable-xxhdpi\voicereg.png
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\R.cs.flag
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\uploadflags.txt
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\DailyLifeHelper.Droid.Resources.Tabbar.xaml.g.cs
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\res\layout\tabbar.xml
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\res\layout\toolbar.xml
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\bin\Debug\DailyLifeHelper.dll.mdb
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\bin\Debug\DailyLifeHelper.Droid.dll.mdb
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\assets\AWSSDK.Core.dll.mdb
@@ -197,7 +201,3 @@ E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\Dail
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\res\drawable\voicereg.png
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\res\drawable-hdpi\voicereg.png
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\res\drawable-xhdpi\voicereg.png
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper.Droid\obj\Debug\res\drawable-xxhdpi\voicereg.png

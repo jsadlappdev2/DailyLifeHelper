@@ -15,6 +15,8 @@ namespace DailyLifeHelper
 
         public static string sysusername { get; set; }
 
+       
+
         public App()
         {
 

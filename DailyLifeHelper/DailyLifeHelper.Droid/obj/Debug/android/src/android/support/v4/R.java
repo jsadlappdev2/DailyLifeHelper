@@ -2567,13 +2567,14 @@ containing a value of this type.
         public static int mr_ic_play_dark=0x7f0200a6;
         public static int mr_ic_play_light=0x7f0200a7;
         public static int navigation=0x7f0200a8;
-        public static int notification_template_icon_bg=0x7f0200af;
+        public static int notification_template_icon_bg=0x7f0200b0;
         public static int photo=0x7f0200a9;
         public static int photo_chn=0x7f0200aa;
         public static int selectlang=0x7f0200ab;
         public static int todo=0x7f0200ac;
-        public static int weather=0x7f0200ad;
-        public static int weather_forecast=0x7f0200ae;
+        public static int voicereg=0x7f0200ad;
+        public static int weather=0x7f0200ae;
+        public static int weather_forecast=0x7f0200af;
     }
     public static final class id {
         public static int action0=0x7f07008b;

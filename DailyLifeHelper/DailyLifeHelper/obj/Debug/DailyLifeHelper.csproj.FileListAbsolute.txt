@@ -15,6 +15,8 @@ E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\Dail
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.Google_TextDetect.xaml.g.cs
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.Google_translate.xaml.g.cs
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.SpeechToText.xaml.g.cs
+E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.dll
+E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.pdb
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\bin\Debug\DailyLifeHelper.dll.config
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\bin\Debug\DailyLifeHelper.dll
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\bin\Debug\DailyLifeHelper.pdb
@@ -88,6 +90,4 @@ E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\Dail
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\bin\Debug\Xamarin.Forms.Platform.pdb
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\bin\Debug\Xamarin.Forms.Xaml.pdb
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\bin\Debug\Xamarin.Forms.Xaml.xml
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.dll
-E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.pdb
 E:\Study\MobileApps\Xamarin\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\DailyLifeHelper\obj\Debug\DailyLifeHelper.csprojResolveAssemblyReference.cache
